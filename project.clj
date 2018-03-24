@@ -3,8 +3,12 @@
                  [org.clojure/clojurescript "1.9.946"]
                  [reagent "0.7.0"]
                  [garden "1.3.2"]
-                 [cljs-bach "0.3.0"]]
-
+                 [cljs-bach "0.3.0"]
+                 ;; Server
+                 [compojure "1.5.1"]
+                 [hiccup "1.0.5"]
+                 [ring/ring-jetty-adapter "1.5.0"]]
+    :main pomodoro-tracker.core
   :min-lein-version "2.5.3"
 
     :source-paths ["src/clj"]
@@ -68,4 +72,5 @@
                     :output-dir    "resources/public/js/test"
                     :main          pomodoro-tracker.runner
                     :optimizations :none}}]})
+    
     
