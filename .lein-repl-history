@@ -1,0 +1,3 @@
+(unchecked-divide-int 120 60)
+(unchecked-divide-int 121 60)
+(unchecked-divide-int 119 60)
