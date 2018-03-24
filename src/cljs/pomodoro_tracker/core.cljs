@@ -19,6 +19,7 @@
          :break    :.is-primary})
     
 (defn page [ratom]
+
   [:div
     [:section.hero.is-small.is-info.is-bold
       [:div.hero-body
@@ -56,7 +57,11 @@
               [:strong.has-text-weight-semibold "Bulma"] 
               " - " 
               "Written in "
-              [:strong.has-text-weight-semibold "ClojureScript"]]]]]]])
+              [:strong.has-text-weight-semibold "ClojureScript"]
+              " - "
+              "Available on "
+              [:a.is-link {:href "https://github.com/WolfgangTS/pomodoro-tracker"}
+                "GitHub"]]]]]]])
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Initialize App
