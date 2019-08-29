@@ -1,7 +1,8 @@
 # pomodoro-tracker
 
 A [reagent](https://github.com/reagent-project/reagent) application designed to model the pomodoro timer technique.
-
+## Screenshot:
+![screenshot](https://github.com/emiflake/pomodoro-tracker/blob/feat-docs-screenshot/frame_chrome_mac_dark.png)
 ## Development Mode
 
 ### cljs-devtools
